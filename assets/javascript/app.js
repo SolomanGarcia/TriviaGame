@@ -4,17 +4,91 @@
 var questionsArr = [
     {
         question: "What was da Vinci's first name?",
-        answerList: ["Bob",
+        answerList: [
+            "Bob",
             "Matteo",
             "Silvio",
             "Leonardo"],
         answer: 3
-        
+        },
+    {
+        question: "Where was da Vinci born?",
+        answerList: [ "Venezia",
+                      "Vinci",
+                      "Firenza",
+                      "Vicenza"],
+        answer: 1
+    },
+    {
+        question: "When da Vinci was about 14 years old his family moved to Firenza. Da Vinci became an apprentice to who?",
+        answerList: ["Verrocchio",
+                     "Giapetto",
+                     "Medici",
+                     "Fibinocchi"],
+        answer: 0 
+    },
+    {
+        question: "Leonardo da Vinci lived during what period?",
+        answerList: ["Industrial Revolution",
+                     "The Enlightenment",
+                     "The Modern Era",
+                     "The Renaissance"],
+        answer: 3
+    },
+    {
+        question: "Which one of Leonardo da Vinci's works did he not finish?",
+        answerList: ["Vitruvian Man",
+                     "St. John the Baptist",
+                     "The Adoration of the Magi",
+                     "Virgin and Child with St. Anne"],
+        answer: 2
+    },
+    {
+        question: "What is a alternate title for the Mona Lisa?",
+        answerList: ["La Gioconda",
+                     "Woman of Peace",
+                     "Lady da Vinci",
+                     "Enigma"],
+        answer: 0
+    },
+    {
+        question: "What work of art did da Vinci not create?",
+        answerList: ["Mona Lisa",
+                     "The Last Supper",
+                     "Virgin of the Rocks",
+                     "The Last Judgement"],
+        answer: 3
+    },
+    {
+        question: "What Museum is the Mona Lisa located in?",
+        answerList: ["Louvre",
+                     "Muse d'Orsay",
+                     "Uffizi Gallery",
+                     "Guggenheim Collection"],
+        answer: 4
+    },
+    {
+        question: "What new material did da Vinci experiment with to paint The Last Supper?",
+        answerList: ["wet plaster",
+                     "oil paint",
+                     "dry plaster",
+                     "canvas"],
+        answer: 2
+    },
+    {
+        question: "Da Vinci was considered which of the following;",
+        answerList: ["painter",
+                     "engineer",
+                     "teenaged mutant ninja turtle",
+                     "inventor"],
+        answer: 2
+
         
     }
+
 ];
 
-var imgArray = ["question1"]
+var imgArray = ["question1", "question2", "question3", "question4", "question5", "question6", "question7", "question8", "question9", "question10"]
 
 var currentQuestion;
 var correctAnswer;
