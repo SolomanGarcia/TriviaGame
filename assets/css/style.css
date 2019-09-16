@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Cinzel', serif;  
+    text-align: center;
+    
+}
+
+.header {
+    background-image: url("../images/background.jpg");
+    text-align: center;
+    font-size: 37px;
+    
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#instructions {
+    font-size: 17px;
+    text-align: center;
+    
+}
+
+p {
+    margin-top: 10px;
+}
+
+#s-button {
+    text-align: center;
+}
+
+#start-button {
+    text-align: center;
+    padding: 15px 21px;
+    font-family: 'Cinzel', 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    background-color: #B49262;
+    font-weight: bold;
+}
+
+#timer {
+    text-align: center;
+    
+}
+
+#current-question {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.question {
+    text-align: center;
+}
+
+.answer-list {
+    text-align: center;
+    
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: maroon;
+}
+
+#corrected-answer{
+    text-align: center;
+}
+
+#img {
+    text-align: center;
+    grid-area: img;
+}
+
+#start-over-button {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+    color: maroon;
+}
+
+#start-over-button:hover {
+    background-color: #B49262;
+	color: white;
+	padding: 10px;
+}
+
+#final-message {
+    margin-bottom: 15px;
+
+}
+
+.thisChoice:hover {
+	background-color: #B49262;
+	color: white;
+	padding: 10px;
+}
+
+h3 {
+    color: maroon;
+    font-size: 25px;
+}

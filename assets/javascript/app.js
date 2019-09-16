@@ -101,7 +101,7 @@ var userSelect;
 
 var messages = {
     correct: "You chose wisely!",
-    incorrect: "you chose poorly",
+    incorrect: "you chose poorly!",
     endTime: "You ran out of time!",
     finished: "You've completed your quiz. Let's see the results."
 }
@@ -118,7 +118,7 @@ $("#start-over-button").on("click", function () {
 
 function newGame() {
     $("#final-message").empty();
-    $("#corret-answers").empty();
+    $("#correct-answers").empty();
     $("#incorrect-answers").empty();
     $("#unanswered").empty();
     currentQuestion = 0;
@@ -213,3 +213,4 @@ function newQuestion() {
         $('#start-over-button').show();
         $('#start-over-button').html('Start Over?');
     }
+
