@@ -65,7 +65,7 @@ var questionsArr = [
                      "Muse d'Orsay",
                      "Uffizi Gallery",
                      "Guggenheim Collection"],
-        answer: 4
+        answer: 0
     },
     {
         question: "What new material did da Vinci experiment with to paint The Last Supper?",
